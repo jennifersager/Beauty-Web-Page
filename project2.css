@@ -1,0 +1,42 @@
+/* CSS Style Sheet for Project 2 */
+/* Jennifer Sager */
+
+body {
+ background-color:lavenderblush;
+}
+ 
+/* responsive image class */
+img.responsive {
+	max-width: 600px; /* sets the max image width to 600 pixels*/
+	height: auto;
+	width: 100%;
+}
+
+/* adds 10 pixels of padding around the header and main elements, sets the width to 100% */
+header, main {
+	padding: 10px;
+	width: 100%;
+}
+
+/* adds 10 pixels of padding around the nav element and displays a 1 pixel solid black border 
+beneath the nav element, sets the width to 100% */
+nav {
+	padding: 10px;
+	border-bottom: 1px solid #000;
+	width: 100%;
+}
+
+/* adds 10 pixels of padding above the footer element and displays a 1 pixel solid black 
+border above the footer, centers the footer text, sets the width to 100% */
+footer {
+	padding: 10px;
+	border-top: 1px solid #000;
+	width: 100%;
+	text-align: center;
+}
+
+#player {
+  margin: auto;
+  border: 3px solid #333;
+  padding: 10px;
+}
